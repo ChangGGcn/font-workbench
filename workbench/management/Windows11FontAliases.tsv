@@ -1,0 +1,128 @@
+# Reviewed exact aliases, separate from the source rows in Windows11Fonts.tsv.
+# ot:<filename> identifies the listed Windows font whose OpenType name IDs 1, 16, or 21 supply this spelling.
+# Optical-size aliases below combine published instance names with the font's STAT optical-size labels.
+# Do not import unrelated Office, Terminal, legacy Windows, or newer Windows fonts absent from the list.
+kind	listed_family	alias	evidence
+family	Calibri	Calibri Light	ot:Calibril.ttf
+family	Candara	Candara Light	ot:Candaral.ttf
+family	Corbel	Corbel Light	ot:Corbell.ttf
+family	Leelawadee UI	Leelawadee UI Semilight	ot:Leeluisl.ttf
+family	Malgun Gothic	Malgun Gothic Semilight	ot:Malgunsl.ttf
+family	Malgun Gothic	맑은 고딕	ot:Malgun.ttf
+family	Malgun Gothic	맑은 고딕 Semilight	ot:Malgunsl.ttf
+family	Microsoft JhengHei	Microsoft JhengHei Light	ot:Msjhl.ttc
+family	Microsoft JhengHei	Microsoft JhengHei UI	ot:Msjh.ttc
+family	Microsoft JhengHei	Microsoft JhengHei UI Light	ot:Msjhl.ttc
+family	Microsoft JhengHei	微軟正黑體	ot:Msjh.ttc
+family	Microsoft JhengHei	微軟正黑體 Light	ot:Msjhl.ttc
+family	Microsoft YaHei	Microsoft YaHei Light	ot:Msyhl.ttc
+family	Microsoft YaHei	Microsoft YaHei UI	ot:Msyh.ttc
+family	Microsoft YaHei	Microsoft YaHei UI Light	ot:Msyhl.ttc
+family	Microsoft YaHei	微软雅黑	ot:Msyh.ttc
+family	Microsoft YaHei	微软雅黑 Light	ot:Msyhl.ttc
+family	MingLiU-ExtB	PMingLiU-ExtB	ot:Mingliub.ttc
+family	MingLiU-ExtB	MingLiU_HKSCS-ExtB	ot:Mingliub.ttc
+family	MingLiU-ExtB	細明體-ExtB	ot:Mingliub.ttc
+family	MingLiU-ExtB	新細明體-ExtB	ot:Mingliub.ttc
+family	MingLiU-ExtB	細明體_HKSCS-ExtB	ot:Mingliub.ttc
+family	MS Gothic	MS PGothic	ot:Msgothic.ttc
+family	MS Gothic	MS UI Gothic	ot:Msgothic.ttc
+family	MS Gothic	ＭＳ ゴシック	ot:Msgothic.ttc
+family	MS Gothic	ＭＳ Ｐゴシック	ot:Msgothic.ttc
+family	Segoe UI	Segoe UI Light	ot:Segoeuil.ttf
+family	Segoe UI	Segoe UI Semilight	ot:Segoeuisl.ttf
+family	Segoe UI	Segoe UI Semibold	ot:Seguisb.ttf
+family	Segoe UI	Segoe UI Black	ot:Seguibl.ttf
+family	Segoe UI Variable	Segoe UI Variable Display	SegUIVar.ttf STAT: Display
+family	Segoe UI Variable	Segoe UI Variable Small	SegUIVar.ttf STAT: Small
+family	Segoe UI Variable	Segoe UI Variable Text	SegUIVar.ttf STAT: Text
+family	SimSun	NSimSun	ot:Simsun.ttc
+family	SimSun	SimSun-ExtB	ot:Simsunb.ttf
+family	SimSun	宋体	ot:Simsun.ttc
+family	SimSun	新宋体	ot:Simsun.ttc
+family	Sitka	Sitka Banner	SitkaVF.ttf STAT: Banner; https://learn.microsoft.com/en-us/typography/font-list/sitka
+family	Sitka	Sitka Display	SitkaVF.ttf STAT: Display; https://learn.microsoft.com/en-us/typography/font-list/sitka
+family	Sitka	Sitka Heading	SitkaVF.ttf STAT: Heading; https://learn.microsoft.com/en-us/typography/font-list/sitka
+family	Sitka	Sitka Small	SitkaVF.ttf STAT: Small; https://learn.microsoft.com/en-us/typography/font-list/sitka
+family	Sitka	Sitka Subheading	SitkaVF.ttf STAT: Subheading; https://learn.microsoft.com/en-us/typography/font-list/sitka
+family	Sitka	Sitka Text	ot:SitkaVF.ttf
+family	Yu Gothic	Yu Gothic Light	ot:YuGothL.ttc
+family	Yu Gothic	Yu Gothic Medium	ot:Yugothm.ttc
+family	Yu Gothic	Yu Gothic UI	ot:YuGothR.ttc
+family	Yu Gothic	Yu Gothic UI Light	ot:YuGothL.ttc
+family	Yu Gothic	Yu Gothic UI Semilight	ot:YuGothR.ttc
+family	Yu Gothic	游ゴシック	ot:YuGothR.ttc
+family	Yu Gothic	游ゴシック Light	ot:YuGothL.ttc
+family	Yu Gothic	游ゴシック Medium	ot:Yugothm.ttc
+family	Simplified Arabic	Simplified Arabic Fixed	ot:Simpfxo.ttf
+family	DengXian	DengXian Light	ot:Dengl.ttf
+family	DengXian	等线	ot:Deng.ttf
+family	DengXian	等线 Light	ot:Dengl.ttf
+family	FangSong	仿宋	ot:Simfang.ttf
+family	KaiTi	楷体	ot:Simkai.ttf
+family	SimHei	黑体	ot:Simhei.ttf
+family	DFKai-SB	標楷體	ot:Kaiu.ttf
+family	MingLiU	PMingLiU	ot:Mingliu.ttc
+family	MingLiU	MingLiU_HKSCS	ot:Mingliu.ttc
+family	MingLiU	細明體	ot:Mingliu.ttc
+family	MingLiU	新細明體	ot:Mingliu.ttc
+family	MingLiU	細明體_HKSCS	ot:Mingliu.ttc
+family	Aharoni Bold	Aharoni	ot:Ahronbd.ttf
+family	Miriam	Miriam Fixed	ot:Mriamc.ttf
+family	BIZ UDGothic	BIZ UDPGothic	ot:BIZ-UDGothicR.ttc
+family	BIZ UDGothic	BIZ UDゴシック	ot:BIZ-UDGothicR.ttc
+family	BIZ UDGothic	BIZ UDPゴシック	ot:BIZ-UDGothicR.ttc
+family	BIZ UDMincho Medium	BIZ UDMincho	ot:BIZ-UDMinchoM.ttc
+family	BIZ UDMincho Medium	BIZ UDPMincho	ot:BIZ-UDMinchoM.ttc
+family	BIZ UDMincho Medium	BIZ UDPMincho Medium	ot:BIZ-UDMinchoM.ttc
+family	BIZ UDMincho Medium	BIZ UD明朝	ot:BIZ-UDMinchoM.ttc
+family	BIZ UDMincho Medium	BIZ UD明朝 Medium	ot:BIZ-UDMinchoM.ttc
+family	BIZ UDMincho Medium	BIZ UDP明朝	ot:BIZ-UDMinchoM.ttc
+family	BIZ UDMincho Medium	BIZ UDP明朝 Medium	ot:BIZ-UDMinchoM.ttc
+family	Meiryo	Meiryo UI	ot:Meiryo.ttc
+family	Meiryo	メイリオ	ot:Meiryo.ttc
+family	MS Mincho	MS PMincho	ot:Msmincho.ttc
+family	MS Mincho	ＭＳ 明朝	ot:Msmincho.ttc
+family	MS Mincho	ＭＳ Ｐ明朝	ot:Msmincho.ttc
+family	UD Digi Kyokasho	UD Digi Kyokasho N	ot:UDDigiKyokashoN-R.ttc
+family	UD Digi Kyokasho	UD Digi Kyokasho NK	ot:UDDigiKyokashoN-R.ttc
+family	UD Digi Kyokasho	UD Digi Kyokasho NP	ot:UDDigiKyokashoN-R.ttc
+family	UD Digi Kyokasho	UD デジタル 教科書体 N	ot:UDDigiKyokashoN-R.ttc
+family	UD Digi Kyokasho	UD デジタル 教科書体 NK	ot:UDDigiKyokashoN-R.ttc
+family	UD Digi Kyokasho	UD デジタル 教科書体 NP	ot:UDDigiKyokashoN-R.ttc
+family	Yu Mincho	Yu Mincho Light	ot:Yuminl.ttf
+family	Yu Mincho	Yu Mincho Demibold	ot:Yumindb.ttf
+family	Yu Mincho	游明朝	ot:Yumin.ttf
+family	Yu Mincho	游明朝 Light	ot:Yuminl.ttf
+family	Yu Mincho	游明朝 Demibold	ot:Yumindb.ttf
+family	Batang	BatangChe	ot:Batang.ttc
+family	Batang	바탕	ot:Batang.ttc
+family	Batang	바탕체	ot:Batang.ttc
+family	Dotum	DotumChe	ot:Gulim.ttc
+family	Dotum	돋움	ot:Gulim.ttc
+family	Dotum	돋움체	ot:Gulim.ttc
+family	Gulim	GulimChe	ot:Gulim.ttc
+family	Gulim	굴림	ot:Gulim.ttc
+family	Gulim	굴림체	ot:Gulim.ttc
+family	Gungsuh	GungsuhChe	ot:Batang.ttc
+family	Gungsuh	궁서	ot:Batang.ttc
+family	Gungsuh	궁서체	ot:Batang.ttc
+family	Arial Nova	Arial Nova Light	ot:ArialNova-Light.ttf
+family	Arial Nova	Arial Nova Cond	ot:ArialNovaCond.ttf
+family	Arial Nova	Arial Nova Cond Light	ot:ArialNovaCond-Light.ttf
+family	Gill Sans Nova	Gill Sans Nova Light	ot:GillSansLightNova.ttf
+family	Gill Sans Nova	Gill Sans Nova Cond	ot:GillSansCondNova.ttf
+family	Gill Sans Nova	Gill Sans Nova Cond Lt	ot:GillSansCondLightNova.ttf
+family	Gill Sans Nova	Gill Sans Nova Cond XBd	ot:GillSansCondExtraNova.ttf
+family	Gill Sans Nova	Gill Sans Nova Cond Ultra Bold	ot:GillSansCondUltraBoNova.ttf
+family	Gill Sans Nova	Gill Sans Nova Ultra Bold	ot:GillSansUltraBoNova.ttf
+family	Rockwell Nova	Rockwell Nova Cond	ot:RockwellNovaCond.ttf
+family	Rockwell Nova	Rockwell Nova Cond Light	ot:RockwellNovaCond-Light.ttf
+family	Rockwell Nova	Rockwell Nova Light	ot:RockwellNova-Light.ttf
+family	Rockwell Nova	Rockwell Nova Extra Bold	ot:RockwellNova-ExtraBold.ttf
+family	Verdana Pro	Verdana Pro Cond	ot:VerdanaPro-CondRegular.ttf
+family	Verdana Pro	Verdana Pro Cond Black	ot:VerdanaPro-CondBlack.ttf
+family	Verdana Pro	Verdana Pro Cond Semibold	ot:VerdanaPro-CondSemiBold.ttf
+family	Verdana Pro	Verdana Pro Light	ot:VerdanaPro-Light.ttf
+file	Cascadia Code	CascadiaCodeItalic.ttf	https://github.com/microsoft/cascadia-code/releases/tag/v2111.01 (zip: ttf/CascadiaCodeItalic.ttf; source spells CascadiaCode Italic.ttf)
+file	Cascadia Mono	CascadiaMonoItalic.ttf	https://github.com/microsoft/cascadia-code/releases/tag/v2111.01 (zip: ttf/CascadiaMonoItalic.ttf; source spells CascadiaMono Italic.ttf)

@@ -1,0 +1,33 @@
+<Window x:Class="FontBook.Workbench.FontDetailsWindow"
+        x:ClassModifier="internal"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="字体详情" Width="540" Height="600" MinWidth="320" MinHeight="280"
+        WindowStartupLocation="CenterOwner" ShowInTaskbar="False" Background="{DynamicResource WorkbenchSurfaceBrush}" Foreground="{DynamicResource TextFillColorPrimaryBrush}" TextOptions.TextRenderingMode="{DynamicResource WorkbenchTextRenderingMode}" RenderOptions.ClearTypeHint="{DynamicResource WorkbenchClearTypeHint}">
+    <Window.InputBindings>
+        <KeyBinding Key="Escape" Command="ApplicationCommands.Close" />
+    </Window.InputBindings>
+    <Window.CommandBindings>
+        <CommandBinding Command="ApplicationCommands.Close" Executed="Close_Executed" />
+    </Window.CommandBindings>
+    <Grid Margin="16">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+        <StackPanel Margin="0,0,0,10">
+            <TextBlock Text="字面快照" FontWeight="SemiBold" />
+            <TextBlock x:Name="SnapshotCaption" TextTrimming="CharacterEllipsis" />
+        </StackPanel>
+        <TextBox Grid.Row="1" x:Name="DetailsText" IsReadOnly="True" AcceptsReturn="True"
+                 TextWrapping="Wrap" VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Disabled"
+                 VerticalContentAlignment="Top" Padding="8" AutomationProperties.Name="所选字面的字体详情" />
+        <DockPanel Grid.Row="2" Margin="0,10,0,0" LastChildFill="True">
+            <Button DockPanel.Dock="Right" Content="关闭" Command="ApplicationCommands.Close" MinWidth="68"
+                    Padding="8,4" Margin="8,0,0,0" VerticalAlignment="Center" />
+            <TextBlock x:Name="ReadStatus" Text="正在读取此字面…" TextWrapping="Wrap" VerticalAlignment="Center"
+                       AutomationProperties.LiveSetting="Polite" />
+        </DockPanel>
+    </Grid>
+</Window>

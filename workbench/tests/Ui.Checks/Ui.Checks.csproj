@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net10.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <PlatformTarget>x64</PlatformTarget>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <LangVersion>latest</LangVersion>
+    <RootNamespace>FontBook.Workbench.Ui.Checks</RootNamespace>
+    <AssemblyName>Ui.Checks</AssemblyName>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="../Management.Checks/HiveFixture.ttf.b64" LogicalName="hive-fixture.b64" />
+    <Compile Include="../PrivateFontHive.cs" Link="PrivateFontHive.cs" />
+    <ProjectReference Include="../../desktop/FontWorkbench.csproj" />
+    <ProjectReference Include="../../collections/Collections.csproj" />
+    <ProjectReference Include="../../management/Management.csproj" />
+  </ItemGroup>
+
+</Project>

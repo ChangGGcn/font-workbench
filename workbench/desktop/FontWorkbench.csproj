@@ -1,0 +1,30 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net10.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <AssemblyName>FontWorkbench</AssemblyName>
+    <RootNamespace>FontBook.Workbench</RootNamespace>
+    <PlatformTarget>x64</PlatformTarget>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+    <ApplicationIcon>Assets/Workbench.ico</ApplicationIcon>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+    <Deterministic>true</Deterministic>
+    <Version>0.4.0-alpha.5</Version>
+    <Product>字体工作台</Product>
+    <Company>长亭 cHAnGe</Company>
+    <Authors>长亭 cHAnGe</Authors>
+    <Description>面向大字体库的 Windows 字体管理工具</Description>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="../collections/Collections.csproj" />
+    <ProjectReference Include="../session/Session.csproj" />
+    <ProjectReference Include="../management/Management.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Assets/Workbench.ico" />
+    <InternalsVisibleTo Include="Ui.Checks" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,23 @@
+FontBook Workbench — native Windows desktop, engineering preview
+
+No font files are distributed with this application. Text in the specimen is
+rendered from the user's own local fonts. The workbench has no third-party
+NuGet dependencies and uses the separately installed Windows Desktop Runtime.
+
+The embedded Windows 11 font-name and filename index is derived from the
+Microsoft Learn Windows 11 font list, including its optional font features:
+https://learn.microsoft.com/en-us/typography/fonts/windows_11_font_list
+It identifies entries on that list, not the installer or owner of a file.
+Font-list facts from Microsoft are normalized to TSV, with separately
+documented aliases. No font software is distributed or licensed by this index.
+
+When built with the pinned Zig 0.14.1 Windows GNU toolchain, the native DLL
+uses toolchain runtime code. Notices from that distribution are included in
+licenses/ (Zig, libc++, libc++abi, libunwind and mingw-w64). Build tools and
+system Windows DLLs are not bundled. A Visual Studio build uses Microsoft's
+separate toolchain/runtime terms. These notices do not establish a license
+for FontBook's own source or any fonts on the user's machine.
+
+The in-process management module uses the project-owned verified transaction sources. If present, safety-center/ is the separately verified legacy application; see
+its THIRD-PARTY-NOTICES.md for the packages in that component. A development
+self-signature, if present, is not a publicly trusted publisher certificate.

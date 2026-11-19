@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net10.0-windows</TargetFramework>
+    <AssemblyName>FontBook.Workbench.Management</AssemblyName>
+    <RootNamespace>FontBook.Management</RootNamespace>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="../../Services/FontOperations.cs" Link="Legacy/FontOperations.cs" />
+    <Compile Include="../../Services/FontOperationSafety.cs" Link="Legacy/FontOperationSafety.cs" />
+    <Compile Include="../../Services/OpenTypeReader.cs" Link="Legacy/OpenTypeReader.cs" />
+    <Compile Include="../../Models/FontOperation.cs" Link="Legacy/FontOperation.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Windows11Fonts.tsv" LogicalName="Windows11Fonts.tsv" />
+    <EmbeddedResource Include="Windows11FontAliases.tsv" LogicalName="Windows11FontAliases.tsv" />
+  </ItemGroup>
+  <ItemGroup><InternalsVisibleTo Include="Management.Checks" /><InternalsVisibleTo Include="Ui.Checks" /></ItemGroup>
+</Project>
